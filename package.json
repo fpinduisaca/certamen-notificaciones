@@ -1,0 +1,22 @@
+{
+  "name": "openjoseph",
+  "version": "2017.8.1",
+  "description": "A simple application which implements sending realtime notifications to the connected clients.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node nodeServer.js"
+  },
+  "author": "Fernando Pinduisaca",
+  "license": "MIT",
+  "homepage": "http://www.yachasoft.com",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^3.1.9",
+    "express": "^4.15.3",
+    "forever": "^4.0.3",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
+    "pg": "*",
+    "socket.io": "^2.0.3"
+  }
+}
